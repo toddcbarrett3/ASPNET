@@ -15,5 +15,7 @@ namespace Testing.Models
         public IEnumerable<Category> GetCategories();
 
         public Product AssignCategory();
+
+        public void DeleteProduct(Product product);
     }
 }
